@@ -1,0 +1,1 @@
+web:    java --port $PORT target/Spring4MVCHelloWorldNoXMLDemo.war
