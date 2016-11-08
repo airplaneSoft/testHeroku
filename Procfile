@@ -1,1 +1,1 @@
-web: java -jar target/Spring4MVCHelloWorldNoXMLDemo.war
+web: java $JAVA_OPTS -jar target/*.war
