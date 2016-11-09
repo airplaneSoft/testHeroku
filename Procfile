@@ -1,2 +1,2 @@
-web: java -jar target/dependency/webapp-runner.jar target/testheroku.war
+web: java $JAVA_OPTS -DTOP_JAVAROOT="." -jar target/dependency/webapp-runner.jar target/testheroku.war
 
